@@ -101,7 +101,7 @@ $(eval $(call coreboot_module,dasharo,24.02.01))
 # My Custom repo for Protectli V1610
 coreboot-custom_repo := https://github.com/fuchskurt/coreboot
 coreboot-custom_commit_hash := main
-$(eval $(call coreboot_module,main,)
+$(eval $(call coreboot_module,main,))
 
 
 # T480 is based on coreboot ~25.09 release
